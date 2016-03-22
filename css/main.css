@@ -1,0 +1,162 @@
+/*
+project: personal website
+description: personal site project. will be posted on github
+using gh pages
+color theme:
+  -primary color:8C704F (dark tan)
+  -secondary color:788C2E (light green)
+  -compliment color:F2EDE4 (light tan)
+  -base color:172101 (dark green)
+  -alt color: 2C2701 (brown /green)
+*/
+
+/* global styles */
+body, html{
+  margin: 0;
+  padding: 0;
+}
+h1, h2{
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: #2C2701;
+}
+.container{
+margin-left: 15px;
+margin-right: 15px;
+}
+/*header styles*/
+header{
+  height: 100px;
+  background-color: #8C704F;
+}
+header a{
+  color: #2C2701;
+}
+.logo{
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+}
+.logo h1{
+  text-align: center;
+  margin: 0;
+}
+.menu{
+  float: left;
+  margin-top: 25px;
+  text-align: center;
+}
+.menu li{
+  float: left;
+}
+.menu li:after{
+  padding-right: 7px;
+  content: " |  ";
+}
+.sm-icons{
+  width: 30%;
+  float: right;
+  padding: 5px;
+  margin-top: 40px;
+}
+.sm-icons a{
+  padding-right: 7px;
+}
+/* banner styles */
+#banner{
+  height: 300px;
+  background: url("../img/flag.jpg") center;
+  background-size: cover;
+  color: #F2EDE4;
+
+}
+#banner h1{
+  text-align: center;
+  margin: 0;
+  padding: 100px 0px;
+  font-size: 2em; /*16px*/
+}
+
+
+/* skills styles*/
+#skills{
+  background-color: #172101;
+  height: 475px;
+  margin: 0;
+}
+#skills .box{
+  height: 100%;
+  width: 25%;
+  border: 2px solid #333;
+  display: inline-block;
+  margin: 30px 2%;
+  padding: 15px 20px;
+}
+.skills-icon{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.skills-icon i{
+  font-size: 2em;
+  color: #788C2E;
+  margin: 9px 11px;
+}
+.skills-info h2{
+  text-align: center;
+  margin-top: 10px;
+}
+.skills-info p{
+text-align: justify;
+line-height: 20px;
+}
+.skillsInfo p{
+  text-align: justify;
+}
+.skillsInfo h2{
+  text-align: center;
+}
+/* about styles*/
+#about{
+  background-color: #2C2701;
+  display: inline-block;
+  margin: 0;
+
+}
+.aboutPic{
+  background-image: url("../img/sfbridge.jpg");
+  width: 25%;
+  height: 200px;
+  background-size: cover;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 100%;
+}
+.aboutInfo h2{
+  text-align: center;
+}
+.aboutInfo{
+  text-align: justify;
+  border: 2px dotted black;
+  margin: 20px;
+  float: left;
+  width: 60%;
+  padding: 20px;
+  height: 200px;
+}
+/* footer styles*/
+footer{
+  height: 150px;
+  background-color: #8C704F;
+  margin: 0px;
+}
