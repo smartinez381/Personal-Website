@@ -1,0 +1,108 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+h1, h2{
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: #2C2701;
+}
+.container{
+margin-left: 15px;
+margin-right: 15px;
+}
+/*header styles*/
+header{
+  height: 100px;
+  background-color: #8C704F;
+}
+header a{
+  color: #2C2701;
+}
+.logo{
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+}
+.logo h1{
+  text-align: center;
+  margin: 0;
+}
+.menu{
+  float: left;
+  margin-top: 25px;
+  text-align: center;
+}
+.menu li{
+  float: left;
+}
+.menu li:after{
+  padding-right: 7px;
+  content: " |  ";
+}
+.sm-icons{
+  width: 30%;
+  float: right;
+  padding: 5px;
+  margin-top: 40px;
+}
+.sm-icons a{
+  padding-right: 7px;
+}
+/* banner styles */
+#banner{
+  height: 300px;
+  background: url("../img/flag.jpg") center;
+  background-size: cover;
+  color: #F2EDE4;
+
+}
+#banner h1{
+  text-align: center;
+  margin: 0;
+  padding: 100px 0px;
+  font-size: 2em; /*16px*/
+}
+/* footer styles */
+footer{
+  background-color: #8C704F;
+  margin: 0;
+  margin-top: -5px;
+  height: 100px;
+  padding: 20px;
+}
+footer p{
+  margin: 0;
+  font-size: 1.5em;
+}
+footer .mycopyright{
+  text-align: center;
+  }
+footer .foot-icon{
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+footer i{
+  font-size: 2em;
+
+}
+.foot-icon i{
+  font-size: 1.75em;
+  padding: 6px;
+}
+#con-map iframe{
+  width: 500px;
+  height: 500px;
+  /*pointer-events: none;*/
+}
