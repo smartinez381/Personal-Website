@@ -81,74 +81,46 @@ header a{
   padding: 100px 0px;
   font-size: 2em; /*16px*/
 }
-/*map & contact styles*/
-#con-map{
-  text-align: center;
+/*video styles*/
+#aboutVid{
+  background-color: #172101;
+}
+#aboutVid iframe{
   width: 100%;
-  height: 450px;
-  background-color: #2C2701;
-  padding: 2px
+  height: 500px;
 }
-.map-con{
-  width: 90%;
-  height: 300px;
-  margin: 0 auto;
-}
-.map-con iframe{
-  width: 500px;
-  height: 90%;
-  pointer-events: none;*/
-}
-#conForm{
+#aboutSec{
   background-color: #788C2E;
-  height: 400px;
+  height: 500px;
   width: 100%;
-  color: white;
-  margin: 0;
   display: inline-block;
-  text-align: center;
-}
-.contBox{
-  width: 50%;
   margin: 0;
+}
+.aboutArt{
+  float: left;
+}
+.aboutMe{
+  width: 40%;
+  padding: 5px 50px;
+  text-align: justify;
+  float: left;
+  margin-top: 30px;
+}
+#aboutSec h1{
+  text-align: center;
+  font-size: 1.75em;
+}
+.aboutPhoto{
+  background: url("../img/baseball.jpg") center;
+  height: 400px;
+  width: 30%;
   float: left;
   text-align: center;
-  padding-left: 50px;
+  background-size: cover;
+  padding: 30px 125px;
+  margin: 20px;
 }
-.fromContent{
-  display: inline-block;
-  width: 60%;
-}
-.conInfo{
-  width: 30%;
-  display: inline-block;
-  font-size: 1.55em;
-  text-align: left;
-  margin: 5px;
-}
-#conForm form input{
-  display: block;
-  height: 40px;
-  width: 500px;
-  margin-left: 100px;
-}
-#conForm textarea{
-  width: 500px;
-  height: 150px;
-  display: block;
-  margin-left: 100px;
-}
-#conForm button{
-  height: 40px;
-  width: 100px;
-  font-size: 1.25em;
-  margin: 5px;
-}
-#conForm h1{
-  padding-right: 500px;
-  font-size: 2.45em;
-}
-/* footer styles */
+/*footer*/
 footer{
   background-color: #8C704F;
   margin: 0;
